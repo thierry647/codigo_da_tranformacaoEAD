@@ -3,8 +3,15 @@
 
 '''
 
-print('Olá, seja bem-vindo')
+print('Digite a idade do jovem: ')
 
-nome_usuario = input('digite seu nome: ')
+idade = int(input()) 
 
-print(f"Olá {nome_usuario}, seja bem-vindo!😎😎")
+if idade <=18:
+    print('jovem é menor de idade')
+
+elif idade <=65:
+      print('jovem é maior de idade')
+
+else:
+     print('Jovem é idoso de idade')
